@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+.day{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.class-item{
+    border: 2px solid brown;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.day-time{
+    display: flex;
+    justify-content: space-between;
+}
+.day-time span{
+    font-weight: bold;
+}
+.class-item h3{
+    margin: 3px 5px;
+}
+
+
+.weekly-calendar img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+.main-btn{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.generic-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .generic-btn:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  .mainInput{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 2px;
+    padding: 5px;
+  }
+span{
+    font-weight: bold;
+}
+
+@media(max-width:500px){
+    .modal-content{
+        width: 270px;
+    }
+}
